@@ -1,0 +1,43 @@
+/**
+ * wrappers.css
+ *
+ * INFORMACION
+ * Disposicion xeral dos contenedores - http://asociaciondag.org.
+ *
+ * AUTORES
+ * Oscar Otero e Segundo Fdez no ano 2015.
+ * http://oscarotero.com | http://segundofdez.com
+ *
+ * FERRAMENTAS
+ * Stylecow ............... http://stylecow.github.io/
+ * Desenvolvido por Oscar Otero.
+ *
+ * XENERICO
+ * normalize.css .......... http://necolas.github.io/normalize.css
+ * Desenvolvido por Nicolas Gallagher coa axuda de Jonathan Neal.
+ *
+ * FONTES
+ * isaac-font.css ......... Importa a tipografia Isaac font.
+ * Deseñada por Marcos Dopico (http://maistypes.com).
+ *
+ */
+
+/* Contenedor básico */
+.wrapper,
+.wrapper-normal,
+.wrapper-narrow {
+ 	padding-left: 4vw;
+ 	padding-right: 4vw;
+ 	display: block;
+ 	margin: 0 auto;
+}
+
+/* Contenedor comun cun tamaño máximo */
+.wrapper-normal {
+	max-width: 1200px;
+}
+
+/* Contenedor comun mini */
+.wrapper-narrow{
+	max-width: 740px;
+}

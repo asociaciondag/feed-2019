@@ -1,0 +1,456 @@
+layout: layout.njk
+titulo: Foro <br>de deseño
+lugar: Santiago de Compostela
+data: 4-5.10.19
+
+info: |
+  **Conferencias:** Auditorio de Galicia<br>
+  **Obradoiros:** Fundación DIDAC
+
+intro: |
+  ## Sobre o FEED
+
+  Celebramos a 5ª edición do Foro bianual FEED para dar a coñecer e compartir as experiencias de profesionais do deseño, tanto galegos como de ámbito nacional, que buscan a diferenciación para chegar a un público cada vez máis exixente e con necesidades máis personalizadas. Proxectos de deseño gráfico, deseño de produto, deseño dixital, deseño de estratexia ou deseño de servizos, e a participación de estudantes de diferentes escolas de deseño de Galicia, completan un programa que busca a implicación e o intercambio de coñecemento en prol dunha mellor integración do deseño na sociedade actual.
+
+  Dous días con obradoiros formativos nas xornadas de mañá e conferencias e presentacións de proxectos nas xornadas de tarde, onde contaremos coa presenza de Artur Galocha, que amosará a evolución do seu traballo e impartirá o primeiro obradoiro de deseño editorial; a deseñadora de tipografías María Ramos, que fará un percorrido pola tipografía contemporánea e falará dos procesos creativos neste campo; e Carmen Lanza, experta en deseño de espazos interactivos en empresas de ámbito internacional. Pechamos o primeiro día coa presentación de proxectos fin de curso dos futuros deseñadores galegos. 
+  
+  O sábado abrimos a xornada co obradoiro de deseño dixital dirixido por Danny Saltaren. Pola tarde agárdanos Rocío Martinavarro, que falará sobre a internacionalización de marcas presentes en diferentes países; Anxo López, que expoñerá a súa experiencia como deseñador de servizos e de como o deseño proporciona ese valor de diferenciación; Sara Regal, que amosará o traballo que desenvolve con lixo e refugallos; e Dani Bembibre e David Silvosa, que falarán de ideas, proxectos, hipóteses e acrobacias do que é hoxe en día o deseño. Pechamos o segundo día do FEED coa intervención de Teresa Jular como presidenta da Rede Española de Asociacións de Deseño (READ).
+
+conferenciantes:
+  - nome: Artur Galocha
+    disciplina: Deseño editorial
+    imaxe: artur.jpg
+    subtitulo: |
+      **Conferencia:** Sempre traballando
+    data: Venres 04.10.19
+    horario: |
+      **Obradoiro:** 9:30 - Fundación DIDAC<br>
+      **Conferencia:** 16:50 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://arturgalocha.com
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/arturgalocha
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://instagram.com/arturgalocha
+    biografia: |
+      Lugués de nacemento, estudou xornalismo en Madrid e despois de traballar como redactor en El Correo Gallego e en AGN descubriu a súa paixón: a infografía. Comezou a traballar na sección de gráficos multimedia en elmundo.es e de aí deu o salto a outros medios. Dentro do diario Público conseguiron ser o medio máis premiado do Malofiej, despois do NYT e o National Geographic. Cando pechou o xornal editou, xunto con outros compañeiros, Líbero (revista mellor deseñada dos ÑH 2017), unha revista independente de fútbol da que é director de arte desde 2012. Levou a sección de infografía do xornal deportivo italiano Corriere dello Sport, foi director de arte de Cambio 16 (revista mellor deseñada dos ÑH 2015) e de Tentaciones de El País. Actualmente é director de arte da revista Retina.
+      
+      Durante todo este tempo, colaborou con El País Semanal, Mongolia, The Washington Post, Cadena SER, Libros del K.O., Editorial Planeta… Ademais deu clases de deseño editorial e infografía no IED e na ESI de Valladolid.
+      
+      ### Conferencia: Sempre traballando
+      
+      «Meu avó, coma toda a súa xeración, estaba obsesionado co traballo. Supoño que algo diso quedaría en min. Así que sempre traballei. Por sorte, no que me gustaba». Na súa intervención, Artur fará un repaso por toda a súa carreira. Do xornalismo á infografía e de aí ao deseño editorial e á ilustración.
+      
+      ### Obradoiro: Pasando revista
+      
+      Nas catro horas do obradoiro os participantes conceptualizarán unha revista e daranlle forma. Desde o bosquexo, a portada, as seccións, a retícula, a elección de tipografías… ata facer unhas páxinas que sirvan para dar unha idea do estilo de revista que se busca. Traballarán con InDesign, mais, sobre todo, coa cabeza. Será  necesario levar ordenador propio con InDesign instalado.
+
+  - nome: María Ramos
+    disciplina: Tipografía
+    imaxe: maria-ramos.jpg
+    subtitulo: |
+      **Conferencia:** Un FEET no FEED
+    data: Venres 04.10.19
+    horario: |
+      **Conferencia:** 16:00 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://www.marsidesino.com/
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/marsidesino
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://www.instagram.com/marsidesino/
+    biografia: |
+      María Ramos (Santa Comba, 1982) comezou a súa carreira profesional como deseñadora gráfica e editorial aló polo ano 2005. O traballo creativo desenvolvido durante case 10 anos levouna a descubrir unha nova vocación, a tipografía. En 2015 graduouse no Mestrado de Deseño de Tipografías da Universidade de Reading (Inglaterra).
+
+      O paso pola universidade inglesa supuxo un impulso definitivo para a súa especialización. Traballa desde Santiago de Compostela para outros deseñadores de tipografías, como atipo ou Jordi Embodas. Xa en 2016, crea xunto a Noel Pretorius a marca tipográfica NM type. Baixo este nome lanzan ao mercado Kinetic, a súa primeira tipografía comercial; recoñecida polo Type Directors Club de Nova York e a Bienal Iberoamericana de Deseño. Desenvolven tamén tipografías a medida para clientes internacionais, entre os que atopamos a Jägermeister. Nun dos seus últimos proxectos tamén se achegan á tipografía experimental, falamos da colaboración con Design Indaba (Sudáfrica) para a creación dunha fonte variable inspirada nos movementos da danza.
+      
+      ### Conferencia: Un FEET no FEED
+      
+      Un percorrido pola tipografía contemporánea que partirá da propia experiencia neste campo. Que é o que se está a cocer na industria tipográfica? Que fórmulas de traballo se utilizan? Cales son os aspectos nos que se está a innovar? Atoparemos a resposta a algunhas das incógnitas que desperta a tipografía entre os profesionais do deseño.
+
+  - nome: Carmen Lanza
+    disciplina: Deseño UX
+    imaxe: carmen.jpg
+    subtitulo: |
+      **Conferencia:** A través do espello
+    data: Venres 04.10.19
+    horario: |
+      **Conferencia:** 18:15 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://www.carmenlanza.com/
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/carmenlanza
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://www.linkedin.com/in/carmenlanza
+    biografia: |
+      Licenciouse coa 3ª promoción da facultade de Belas Artes de Pontevedra, na que obtivo unha bolsa Erasmus na Kingston University de Londres.
+      
+      Nos últimos vinte anos traballou en empresas de produto, startups ou consultoras internacionais como marchFIRST. Liderou a área de deseño de interface gráfica do BBVA no ámbito internacional durante os seus dez anos de maior transformación dixital, período no que colaborou con empresas como Ideo, Adaptive Path, Continuum, Gravity ou Fjord; e tamén liderou o equipo de deseño de produto en Tuenti durante a súa transición de rede social a provedor multinacional de telecomunicacións.
+      
+      Actualmente é a responsable de deseño de Liquid Squad (equipo de innovación avanzada de Accenture) onde colabora en proxectos que abarcan desde o sector saúde ata o aeroespacial, e están sempre enfocados en aplicar as tecnoloxías máis innovadoras para a creación de espazos interactivos que leven a relación co usuario máis aló das pantallas.
+      
+      Ao longo da súa carreira colaborou para clientes como Repsol, Bankia, BBVA, Banco Santander, BBK, Telefónica, Iberia, Ikea, Endesa, Vithas Hospitales, Grupo VIPS ou o Museo Thyssen, entre outros.
+      
+      ### Conferencia: A través do espello
+      
+      Falaranos da creación de espazos interactivos e os desafíos que supón deseñar experiencias máis aló das pantallas.
+
+  - nome: Estudantes de escolas de deseño galegas
+    disciplina: Futuros deseñadores
+    imaxe: estudantes.jpg
+    subtitulo: |
+      Exposición de traballos fin de curso
+    data: Venres 04.10.19
+    horario: |
+      **Conferencia:** 19:05 - Auditorio de Galicia
+    _links:
+      - type: web
+        url: http://escoladeartelugo.com/
+      - type: web
+        url: http://www.escolarte.com/
+      - type: web
+        url: http://www.eapicasso.com/
+      - type: web
+        url: http://www.easd.es/
+      - type: web
+        url: https://www.marcelomacias.com/
+      - type: web
+        url: https://aulad.com/
+      - type: web
+        url: http://masterdirecciondearte.webs.uvigo.es/
+        
+    biografia: |
+      Presentación de proxectos realizados por estudantes de distintas escolas de deseño galegas:
+      
+      - **Ana Gómez** da EASD Ramon Falcón
+      - **Andrea de la Iglesia** da EASD Antonio Faílde
+      - **Borja Pérez** da EASD Pablo Picasso
+      - **Marta Collazo** de EASD Mestre Mateo
+      - **Cesar Nóvoa** da ES Marcelo Macías
+      - **Daniel Miguélez** de Aula D
+      - **Sara Valcárcel** do Máster de Dirección de Arte da UVigo
+      
+  - nome: Danny Saltaren
+    disciplina: Deseño dixital
+    imaxe: danny.jpg
+    subtitulo: |
+      **Obradoiro:** Xestión dun equipo
+    data: Sábado 05.10.19
+    horario: |
+      **Obradoiro:** 9:30 - Fundación DIDAC
+    links:
+      - type: web
+        url: https://mendesaltaren.com/
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/mendesaltaren/
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://www.linkedin.com/company/mendesaltarenstudio/
+      - type: youtube
+        icon: /img/ico-youtube.svg
+        url: https://www.youtube.com/channel/UCeJI6MtRlLkCIoat4MOwNhg
+    biografia: |
+      Deseñador de produto con máis de 9 anos de experiencia centrado no deseño de produtos dixitais. É socio fundador da boutique de deseño mendesaltaren, na que deseñan e programan produtos dixitais para pequenas e grandes empresas. Compaxina o seu día a día como deseñador coa docencia para empresas e escolas como Mr. Marcel School ou Ironhack, en Madrid. Ademais, é habitual atopalo en conferencias relacionadas con sistemas de deseño e produto dixital. 
+      
+      ### Obradoiro
+      
+      Profundarase no product design handbook para mellorar os procesos internos de traballo, tanto propios como os dos clientes. Traballarase desde a forma de organizar ata a xeración de documentación dos sistemas de deseño, e prestarase unha especial atención ao seu mantemento e xestión. Resolveranse as principais dúbidas referentes ao día a día dun equipo que interactúa cun sistema de deseño e o fluxo de traballo asociado a este. Ademais, visualizaranse exemplos reais aplicados a clientes de mendesaltaren. É preciso levar ordenador e ter unha conta en FIGMA. Para un mellor aproveitamento do obradoiro, recómendase ler antes o [design handbook](https://designhandbook.mendesaltaren.com/) de mendesaltaren. 
+      
+  - nome: Rocío Martinavarro
+    disciplina: Deseño cultural & Branding
+    imaxe: rocio.jpg
+    subtitulo: |
+      **Conferencia:** Deseño que rompe fronteiras
+    data: Sábado 05.10.19
+    horario: |
+      **Conferencia:** 16:00 - Auditorio de Galicia
+    links:
+      - type: web
+        url: https://mayuscula.es/
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://www.instagram.com/mayusculabrands/
+      - type: facebook
+        icon: /img/ico-facebook.svg
+        url: https://www.facebook.com/mayusculabranding/
+    biografia: |
+      Rocío suma 20 anos de experiencia como deseñadora en Nova York, Amsterdam e Barcelona. É fundadora de Mayúscula, un estudio especializado en branding, sinalización e deseño multicultural e multillingüe para marcas con necesidades globais. Traballou en proxectos como a sinalización turística do país de Acerbaixán ou a de Baku City Circuit de Formula 1, e deseñou para clientes como Carolina Herrera, Agility Logistics, Qatar Rail, o goberno de Kuwait, The World Bank Group ou Springfield.
+      
+      Algúns dos seus proxectos foron premiados internacionalmente: Type Directors Club Nova York, D&AD Londres, premios Laus da ADG-FAD e Dubai Lynx. Tamén foi xurado dos premios de deseño e comunicación ADCE (Art Directors Club of Europe) e Laus, entre outros. Combina o seu traballo coa docencia en diversas escolas de deseño, como Elisava, IED, LCI ou Seeway, e é brand consultant en Creacities.
+      
+      ### Conferencia: Deseño que rompe fronteiras
+      
+      O deseño impulsa as marcas internacionalmente, conecta  persoas na diversidade e axuda a que experiencias e produtos sexan accesibles para todo o mundo. A través de proxectos en países como Acerbaixán, O Líbano, Taiwán, Qatar ou Kuwait, Rocío destacará conceptos como o multilingüismo, a internacionalización, a localización ou o management global.
+
+  - nome: Anxo López
+    disciplina: Deseño de servizos
+    imaxe: anxo.jpg
+    subtitulo: |
+      **Conferencia:** Unha viaxe na procura de valor
+    data: Sábado 05.10.19
+    horario: |
+      **Conferencia:** 16:50 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://anxolopez.com/
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/AnxoLopez
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://www.instagram.com/AnxoLopez/
+    biografia: |
+      Anxo López é un deseñador que lidera a estratexia de deseño do equipo de deseño do BBVA. É doutor pola súa tese sobre o deseño como actividade económica na industria española do século XXI.
+
+      Iniciou a súa carreira desenvolvendo proxectos de comunicación e deseño visual para diferentes empresas e institucións. Desde a súa posición como deseñador en diferentes proxectos, comezou a preocuparse polo deseño como función estratéxica. Primeiro en XVDMC e logo en Designit, alí traballou para clientes como Bancolombia, BBVA, Ferrovial, Gas Natural, L'Oréal Paris, Leroy Merlin ou Vodafone.
+
+      Ademais, complementa a súa actividade como profesor. Impartiu aulas  e conferencias en lugares como IE, IESE, SCAD, IED, ESNE ou BAU, entre outros. Ao longo da súa carreira dedicou especial atención á promoción e difusión do deseño, actualmente, faino como membro da Xunta Directiva de DIMAD. Como emprendedor, fundou Miúdo (seleccionado por Telefónica Open Future como empresa emerxente para o seu programa de aceleración 2014).
+      
+      ### Conferencia: Unha viaxe na procura de valor
+      
+      Se puidésemos viaxar no tempo e alguén lle preguntase ao Anxo de 2004: onde che gustaría ver reflectido o impacto do deseño? O Anxo mozo tería respondido: abrindo a primeira edición do Telexornal. Hoxe —con algúns anos máis de experiencia— seguro que non respondería do mesmo xeito, quizais non atopou aínda unha resposta, o que si é claro e que leva un tempo procurando cal é a relación entre valor e deseño.
+      
+  - nome: Sara Regal
+    disciplina: Deseño de produto
+    imaxe: sara.jpg
+    subtitulo: |
+      **Conferencia:** Lixo versus deseño. Experimentando coa reciclaxe
+    data: Sábado 05.10.19
+    horario: |
+      **Conferencia:** 18:15 - Auditorio de Galicia
+    links:
+      - type: web
+        url: https://sararegal.com/
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://www.instagram.com/sararegalalonso/
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://www.linkedin.com/in/sara-regal-alonso-4a301343/
+    biografia: |
+      Sara Regal creceu en Viveiro, unha pequena vila da costa de Lugo, contorna natural que a influirá na súa práctica creativa. Tras rematar os seus estudos na UDC, mudouse a Londres onde adquiriu experiencia en distintas disciplinas, desde deseño de produto e mobiliario ata proxectos integrais de interiorismo. Pouco despois realizou o Máster de Deseño de Produto na prestixiosa Ecal, Suíza, onde explorou e desenvolveu a súa propia metodoloxía, cun enfoque intuitivo á vez que experimental, centrado nas calidades dos materiais e na produción e influenciado polas tendencias na cor e a dirección artística. Do artesanal ao industrial; do sintético ao natural. Despois da súa residencia artística na HKDI de Hong Kong, comezou traballar na empresa española Camper como set&interior designer.
+      
+      Recentemente expuxo o seu traballo na New York Design Week.
+      
+      ### Conferencia: Lixo versus deseño. Experimentando coa reciclaxe
+      
+      A través da súa práctica, explicará como o lixo e os refugallos se tornaron, por medio da conciencia, na materia prima dos seus deseños. Traballar con materiais de orixe industrial dun xeito máis artesanal abre novas aplicacións con formas inesperadas.
+      
+  - nome: Dani Bembibre <br>e David Silvosa
+    disciplina: Deseño gráfico
+    imaxe: costa.jpg
+    subtitulo: |
+      **Conferencia:** Todos, todo, ningún, nada
+    data: Sábado 05.10.19
+    horario: |
+      **Conferencia:** 19:05 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://www.costa.io/
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://www.linkedin.com/in/danibembibre/
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://www.linkedin.com/in/davidsilvosa/
+    biografia: |
+      Dani Bembibre é deseñador gráfico e director de arte en Costa. Licenciado en Belas Artes, especializouse en deseño e ilustración na Universidade Aalto de Helsinki (Finlandia). Ao longo dos seus 15 anos de experiencia traballou en axencias como Ruiz+Company ou SUMMA de Barcelona. Nesta última participou en proxectos para clientes como Silestone, Chocolat Factory, Nutrexpa, Telecinco ou na renovación da identidade visual de RTVE.
+      
+      En 2010 funda o seu propio estudio na Coruña, Belda. É docente en distintos foros, e ten o Premio do Art Directors Club of Europe, un Premio LAUS e os premios Grafia de Finlandia.
+      
+      David Silvosa é arquitecto, deseñador e director de arte con 15 anos de experiencia. Comezou a súa carreira nos estudios de Carlos Ferrater en Barcelona, Franco Taboada na Coruña e cunha estadía como deseñador no LEGO Concept Lab de Barcelona. Como arquitecto e deseñador independente traballou para clientes coma Zara, Vodafone, Estrella Galicia ou Kina Fernández. O seu traballo foi recoñecido cun Premio Habitácola polo FAD (Foment de las Arts i del Disseny), cunha bolsa Arquia da Caixa de Arquitectos e por publicacións de Reino Unido, EUA, Australia, Alemaña, Xapón e Malasia.
+      
+      En 2014 asócianse e nace Costa, un estudio de deseño que traballa desde A Coruña en proxectos globais de marca e identidade visual, deseño gráfico e dirección de arte, packaging de produto, e proxectos de retail e espazos.
+      
+      ### Conferencia: Todos, todo, ningún, nada
+      
+      Como facer algo que non serve para nada, pero é para todos. Un percorrido por ideas, proxectos, hipóteses e acrobacias diso que chamamos deseño.
+      
+  - nome: Teresa Jular
+    disciplina: Presidenta de READ
+    imaxe: teresa.jpg
+    subtitulo: |
+      **Peche do FEED:** READ. Representación, equidade e outras emocións
+    data: Sábado 05.10.19
+    horario: |
+      19:55 - Auditorio de Galicia
+    links:
+      - type: web
+        url: http://www.teresajular.com/
+      - type: web
+        url: https://www.designread.es/
+      - type: twitter
+        icon: /img/ico-twitter.svg
+        url: https://twitter.com/Foro_READ/
+      - type: instagram
+        icon: /img/ico-instagram.svg
+        url: https://www.instagram.com/designread_/
+      - type: linkedin
+        icon: /img/ico-linkedin.svg
+        url: https://es.linkedin.com/in/designread
+    biografia: |
+      Deseñadora de servizos con base tecnolóxica, no 1988 cofundou XLI, unha peme con sede en Murcia, desde a que acompañou a numerosas empresas, organizacións sen ánimo de lucro e áreas da administración pública, entre as que se inclúen varias universidades e centros de investigación, na xestión de ideas e solucións vinculadas ao  deseño e aos múltiples usos que ofrece a rede Internet.
+      
+      En 2012 perfeccionouse na Escola de Organización Industrial, escola de negocios pública española, na metodoloxía design thinking, coa árbore estratéxica, lenzo do modelo de negocio, o triplo balance e outras ferramentas conectoras do  deseño e dos negocios para a innovación e a sustentabilidade.
+      
+      Desde ese mesmo ano e como delegada de DIP, Asociación de Profesionais do Deseño e a Comunicación Publicitaria da Rexión de Murcia, formou parte da Xunta Directiva da READ, da que arestora é a actual presidenta.
+      
+      ### Peche do FEED: READ. Representación, equidade e outras emocións
+      
+      Un repaso aos arquivos profundos, á visión utópica e aos principais proxectos da Rede Española de Asociacións de Deseño, a entidade española fundada en 2010 para a coordinación e integración da comunidade nacional de deseñadoras e deseñadores profesionais.
+
+programa:
+  titulo: Programa
+  programa:
+    - dia: Venres 4
+      eventos:
+        - titulo: Obradoiro de Artur Galocha
+          subtitulo: Deseño editorial
+          hora: 9:30 - 13:30
+          tipo: obradoiro
+
+        - titulo: Acreditación
+          hora: 15:30 - 16:00
+          tipo: organizacion
+
+        - titulo: María Ramos
+          subtitulo: Un FEET no FEED
+          hora: 16:00 - 16:50
+          tipo: conferencia
+
+        - titulo: Artur Galocha
+          subtitulo: Sempre traballando
+          hora: 16:50 - 17:40
+          tipo: conferencia
+
+        - titulo: Descanso
+          hora: 17:45 - 18:15
+          tipo: organizacion
+
+        - titulo: Carmen Lanza
+          subtitulo: A través do espello
+          hora: 18:15 - 19:05
+          tipo: conferencia
+
+        - titulo: Presentación de proxectos
+          subtitulo: Estudantes das escolas de deseño de Galicia
+          hora: 19:05 - 19:55
+          tipo: conferencia
+
+    - dia: Sábado 5
+      eventos:
+        - titulo: Obradoiro de Danny Saltaren
+          subtitulo: Xestión dun equipo
+          hora: 9:30 - 13:30
+          tipo: obradoiro
+
+        - titulo: Acreditación
+          hora: 15:30 - 16:00
+          tipo: organizacion
+
+        - titulo: Rocío Martinavarro
+          subtitulo: Deseño que rompe fronteiras
+          hora: 16:00 - 16:50
+          tipo: conferencia
+
+        - titulo: Anxo López
+          subtitulo: Unha viaxe na procura de valor
+          hora: 16:50 - 17:40
+          tipo: conferencia
+
+        - titulo: Descanso
+          hora: 17:45 - 18:15
+          tipo: organizacion
+
+        - titulo: Sara Regal
+          subtitulo: Lixo versus deseño.<br>Experimentando coa reciclaxe
+          hora: 18:15 - 19:05
+          tipo: conferencia
+
+        - titulo: Dani Bembibre e David Silvosa
+          subtitulo: Todos, todo, ningún, nada
+          hora: 19:05 - 19:55
+          tipo: conferencia
+
+        - titulo: Teresa Jular
+          subtitulo: Peche do FEED
+          hora: 19:55 - 20:30
+          tipo: conferencia
+
+entradas:
+  titulo: Entradas
+  subtitulo: Compra a túa entrada para o FEED
+  link:
+    texto: Comprar entradas
+    url: https://feed-2019.eventbrite.es
+  texto: |
+    Descontos para asociados e asociadas da DAG, se aínda non es socio, [faite agora](https://dag.gal/gl/acerca-de/asociate/). Tamén temos descontos para estudantes, membros da READ e do Clúster da Comunicación. Se estás desempregada/o, infórmate en [info@dag.gal](mailto:info@dag.gal).
+
+lugares:
+  titulo: Como chegar
+  lugares:
+    - titulo: Conferencias
+      direccion: |
+           Sala Mozart do Auditorio de Santiago.<br>
+           Avda. Burgo das Nacións s/n.<br>
+           Santiago de Compostela.
+      link:
+        texto: Ver mapa
+        url: https://goo.gl/maps/bXjrobeLZJfXTRJa7
+
+    - titulo: Obradoiros
+      direccion: |
+           Fundación DIDAC<br>
+           Rúa Pérez Constanti 12.<br>
+           Santiago de Compostela
+      link:
+        texto: Ver mapa
+        url: https://goo.gl/maps/6uaF7Rhk4DMXG2GC6
+
+logos:
+    - title: Organiza
+      logos:
+      - img: logo-dag.svg
+        url: https://dag.gal
+        text: DAG - Asociación Galega de Deseño
+    - title: Patrocina
+      logos:
+      - img: logo-xacobeo.svg
+        url: https://www.xunta.gal
+        text: Xacobeo 2021
+      - img: logo-agadic.svg
+        url: http://www.agadic.gal/
+        text: AGADIC - Axencia Galega das Industrias Culturais
+      - img: logo-xunta.svg
+        url: https://www.xunta.gal
+        text: Xunta de Galicia
+    - title: Colabora
+      logos:
+      - img: logo-axenciagrafica.svg
+        url: https://agenciagrafica.es/
+        text: Agencia Gráfica
+      - img: logo-serilua.svg
+        url: http://www.serilua.com
+        text: Serilua
+      - img: logo-axeitos.svg
+        url: https://www.axeitos.com/
+        text: axeitos & Co
+      - img: logo-fedrigoni.svg
+        url: https://www.fedrigoni.es/
+        text: Fedrigoni
+      - img: logo-santiago.svg
+        url: http://www.santiagodecompostela.gal/
+        text: Concello de Santiago de Compostela
+      - img: logo-didac.svg
+        url: http://didac.gal/
+        text: DIDAC

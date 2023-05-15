@@ -1,0 +1,208 @@
+<!doctype html>
+
+<html class="no-js" lang="gl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Foro de deseño - DAG</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="DAG - Asociación Galega de Deseño">
+
+        <link rel="stylesheet" href="./styles.css">
+        <script type="module" src="./scripts.js"></script>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <nav class="page-header wrapper" id="main-header">
+            <a href="https://dag.gal" class="page-logo" title="Asociación Galega de Deseño">
+                <img src="./img/dag.svg" inline>
+            </a>
+        </nav>
+        <!-- /HEADER -->
+
+        <article class="project">
+          <div class="project-block">
+              <div class="project-header-container">
+                  <header class="project-header">
+                      <h1>{{ titulo | safe }}</h1>
+                      <p class="project-header-location">{{ lugar }}</p>
+                      <p class="project-header-date">{{ data }}</p>
+
+                      <div class="project-header-info">
+                          {{ info | md | safe }}
+                      </div>
+                  </header>
+                  <div class="project-intro">
+                    {{ intro | md | safe }}
+                  </div>
+              </div>
+          </div>
+
+          <div class="project-block">
+              <button id="carousel-next" class="carousel-buttons is-next">
+                  <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M69.02 50L22.325 92.027a4 4 0 1 0 5.352 5.946l50-45a4 4 0 0 0 0-5.946l-50-45a4 4 0 1 0-5.352 5.946L69.021 50z" fill-rule="nonzero"/>
+                  </svg>
+              </button>
+              <button id="carousel-prev" class="carousel-buttons is-prev">
+                  <svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M69.02 50L22.325 92.027a4 4 0 1 0 5.352 5.946l50-45a4 4 0 0 0 0-5.946l-50-45a4 4 0 1 0-5.352 5.946L69.021 50z" fill-rule="nonzero"/>
+                  </svg>
+              </button>
+
+              <dag-carousel class="project-conferenciantes" role="region" aria-label="Conferenciantes" tabindex=0 id="carousel">
+                {% for conferenciante in conferenciantes %}
+                  <article class="conferenciante flip">
+                    <div class="conferenciante-front flip-front">
+                        <header class="conferenciante-header">
+                            <img src="./img/{{ conferenciante.imaxe }}" class="js-flip-button">
+                            <h2>{{ conferenciante.nome | safe }}</h2>
+                            {{ conferenciante.subtitulo | md | safe }}
+                            <p class="conferenciante-disciplina">
+                              {{ conferenciante.disciplina }}
+                            </p>
+                        </header>
+
+                        <button class="js-flip-button button">+ info</button>
+
+                        <p class="conferenciante-data">
+                            {{ conferenciante.data }}
+                        </p>
+
+                        <div class="conferenciante-horario">
+                            {{ conferenciante.horario | md | safe }}
+                        </div>
+                    </div>
+                    <section class="conferenciante-back flip-back">
+                        <button class="js-flip-button icon-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M15 9L9 15" stroke="black" stroke-width="2" stroke-linecap="square"/>
+                                <path d="M9 9L15 15" stroke="black" stroke-width="2" stroke-linecap="square"/>
+                            </svg>
+                        </button>
+
+                        <header class="conferenciante-header">
+                            <h2>{{ conferenciante.nome | safe  }}</h2>
+                        </header>
+
+                        {% if conferenciante.links.length %}
+                        <ul class="conferenciante-links">
+                            {% for link in conferenciante.links %}
+                            <li>
+                                <a href="{{ link.url }}" title="{{ link.type }}">
+                                    {% if link.icon %}
+                                    <img src="{{ link.icon }}" inline>
+                                    {% else %}
+                                    {{ link.type }}
+                                    {% endif %}
+                                </a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+
+                        <div class="conferenciante-bio">
+                          {{ conferenciante.biografia | md | safe }}
+                        </div>
+
+                    </section>
+                </article>
+                {% endfor %}
+              </dag-carousel>
+          </div>
+
+          <div class="project-block">
+              <section class="programa">
+                  <header class="programa-header">
+                      <h2>{{ programa.titulo }}</h2>
+                  </header>
+
+                  {% for dia in programa.programa %}
+                  <div class="programa-dia">
+                      <h3>{{ dia.dia }}</h3>
+                      <table>
+                          {% for evento in dia.eventos %}
+                          <tr class="programa-evento is-{{ evento.tipo }}">
+                              <td class="programa-evento-dia"><time>{{ evento.hora }}</time></td>
+                              <td class="programa-evento-info">
+                                  <strong>{{ evento.titulo }}</strong>
+
+                                  {% if evento.subtitulo %}
+                                  <br><em>{{ evento.subtitulo }}</em>
+                                  {% endif %}
+                              </td>
+                          </tr>
+                          {% endfor %}
+                      </table>
+                  </div>
+                  {% endfor %}
+              </section>
+          </div>
+
+          <div class="project-block">
+              <div class="project-tickets">
+                  <section class="entradas">
+                      <header>
+                          <h2>{{ entradas.titulo }}</h2>
+                          {{ entradas.subtitulo | md | safe }}
+                      </header>
+
+                      <a href="{{ entradas.link.url }}" class="button">
+                          {{ entradas.link.texto }}
+                          &nbsp;&nbsp;
+                          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.47368 -4.14108e-07L18 8.97068L9.52941 18L7.6904 16.0065L13.1517 10.3778L-3.33175e-07 10.3779L-4.51067e-07 7.68078L13.096 7.68078L7.63467 1.93485L9.47368 -4.14108e-07Z" fill="white"/>
+                          </svg>
+                      </a>
+
+                      <footer class="entradas-footer">
+                          {{ entradas.texto | md | safe }}
+                      </footer>
+                  </section>
+
+                  <section class="lugares">
+                      <header>
+                          <h2>{{ lugares.titulo }}</h2>
+                      </header>
+
+                      {% for lugar in lugares.lugares %}
+                        <div class="lugares-lugar">
+                          <h3>{{ lugar.titulo }}</h3>
+                          {{ lugar.direccion | md | safe }}
+                          <a href="{{ lugar.link.url }}">
+                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" fill="black"/>
+                                  <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" fill="white"/>
+                              </svg>
+
+                              {{ lugar.link.texto }}
+                          </a>
+                        </div>
+                      {% endfor %}
+                      </div>
+                  </section>
+              </div>
+          </div>
+
+          <footer class="project-footer">
+              {% for group in logos %}
+              <div class="project-footer-group">
+                <h3>{{ group.title }}</h3>
+                <ul>
+                    {% for logo in group.logos %}
+                    <li>
+                        <a href="{{ logo.url }}" title="{{ logo.text }}">
+                            <img src="./img/{{ logo.img }}" alt="Logotipo">
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+              </div>
+              {% endfor %}
+          </footer>
+      </article>
+    </body>
+</html>
